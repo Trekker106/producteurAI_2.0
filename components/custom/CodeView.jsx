@@ -36,10 +36,10 @@ function CodeView() {
 
   }, [id]);
 
-  useEffect(() => {
-    setActiveTab('preview')
+  // useEffect(() => {
+  //   setActiveTab('preview')
 
-  }, [action])
+  // }, [action])
 
   const GetFiles = async () => {
     setLoading(true);
